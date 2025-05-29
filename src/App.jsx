@@ -33,3 +33,16 @@ function App() {
 }
 
 export default App
+
+
+import NavBar from './components/NavBar';
+import MovieList from './components/MovieList';
+
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <MovieList />
+    </div>
+  );
+}
